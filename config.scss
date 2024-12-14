@@ -1,0 +1,23 @@
+#root.root {--d-swift: 0.12s;}
+#root.root {--tabs-height: 31px;}
+#root.root {--tabs-indent: 15px;}
+#root.root {--tabs-inner-gap: 8px;}
+#root.root {--tabs-border-radius: 15px;}
+#root.root {
+  --tabs-normal-bg: #1F1F28;       /* Dark muted background for inactive tabs */
+  --tabs-normal-fg: #85E0FF;       /* Bright cyan text for inactive tabs */
+  --tabs-activated-bg: #FF6F61;    /* Vibrant coral for active tab background */
+  --tabs-activated-fg: #FFFFFF;    /* White text for active tabs */
+  
+  --subtabs-normal-bg: #2A2A36;    /* Dark gray for inactive subtabs */
+  --subtabs-normal-fg: #FFEB3B;    /* Bright yellow for inactive subtabs */
+  --subtabs-activated-bg: #FF4081; /* Bright pink for active subtabs */
+  --subtabs-activated-fg: #FFFFFF; /* White text for active subtabs */
+}
+
+#root.root {
+  --frame-bg: #1A1A24;             /* Dark charcoal background for the frame */
+  --toolbar-bg: #252532;           /* Slightly lighter dark for the toolbar */
+  --general-margin: 4px;           /* Adjusted margin for better spacing */
+  --general-border-radius: 8px;    /* Rounded corners for modern UI */
+}
